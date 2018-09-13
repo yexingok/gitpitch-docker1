@@ -16,9 +16,8 @@ Docker Session 1
 
 #### What is docker
 
-Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, thanks to the container, the developer can rest assured that the application will run on any other Linux machine regardless of any customized settings that machine might have that could differ from the machine used for writing and testing the code.
-
-Refer from:  https://opensource.com/resources/what-docker
+- Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. 
+- Refer from:  https://opensource.com/resources/what-docker
 
 ---
 
@@ -32,7 +31,6 @@ Refer from:  https://opensource.com/resources/what-docker
 #### Difference between docker and virtual machine
 
 ![docker-vs-vm](https://www.aquasec.com/wiki/download/attachments/2854029/docker-birthday-3-intro-to-docker-slides-18-638.jpg?version=1&modificationDate=1515522843003&api=v2)
-
 - Docker is light than VM. (hundreds MB compare to VM couple of GB)
    - Start/stop quicker.
    - Smaller size.
@@ -42,7 +40,6 @@ Refer from:  https://opensource.com/resources/what-docker
 #### Docker Architecture
 
 ![docker-architecture](https://www.aquasec.com/wiki/download/attachments/2854029/Docker.JPG?version=1&modificationDate=1515349366681&api=v2)
-
 - Docker Client: This is how you interact with your containers. Call it the user interface for Docker.
 - Docker Objects: These are your main components of Docker (Run on dockerhost)
     - containers placeholders for your software, can read and write.
