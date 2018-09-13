@@ -37,14 +37,32 @@ Docker Session 1
 
 ---
 
-#### Docker Architecture
+#### Docker Architecture - Docker Client
 
 ![docker-architecture](https://www.aquasec.com/wiki/download/attachments/2854029/Docker.JPG?version=1&modificationDate=1515349366681&api=v2)
 - Docker Client: This is how you interact with your containers. Call it the user interface for Docker.
+
+---
+
+#### Docker Architecture - Docker Objects
+
+![docker-architecture](https://www.aquasec.com/wiki/download/attachments/2854029/Docker.JPG?version=1&modificationDate=1515349366681&api=v2)
 - Docker Objects: These are your main components of Docker (Run on dockerhost)
     - containers placeholders for your software, can read and write.
     - images are read only and can be used to create new containers.
+
+---
+
+#### Docker Architecture - Docker Daemon
+
+![docker-architecture](https://www.aquasec.com/wiki/download/attachments/2854029/Docker.JPG?version=1&modificationDate=1515349366681&api=v2)
 - Docker Daemon: A background process responsible for receiving commands and passing them to the containers via command line.
+
+---
+
+#### Docker Architecture - Docker Registry
+
+![docker-architecture](https://www.aquasec.com/wiki/download/attachments/2854029/Docker.JPG?version=1&modificationDate=1515349366681&api=v2)
 - Docker Registry: Commonly known as Docker Hub, in our case is gitlab, this is where our container images are stored and retrieved.
 
 ---
@@ -53,7 +71,6 @@ Docker Session 1
 
 - Register an docker account on https://cloud.docker.com/
 - Learn dev or ops class from  https://training.play-with-docker.com/
-- Start with the dev or ops session.
 - Install local can refer: 
     - ubuntu: https://docs.docker.com/install/linux/docker-ce/ubuntu/
     - windows: https://docs.docker.com/docker-for-windows/install/
@@ -63,4 +80,3 @@ Docker Session 1
 ### Questions & Answer
 
 - Q/A
-
