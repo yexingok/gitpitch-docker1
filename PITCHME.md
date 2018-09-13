@@ -82,6 +82,13 @@ Refer:
 
 ---
 
+#### Future plan
+
+- Learn classroom at yourselves's good time.
+- Ask question about docker in IT Channel.
+
+---
+
 ### Questions & Answer
 
 - Q/A
