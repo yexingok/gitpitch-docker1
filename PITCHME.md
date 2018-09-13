@@ -71,7 +71,7 @@ Docker Session 1
 
 - Register an docker account on https://cloud.docker.com/
 - Learn dev or ops class from  https://training.play-with-docker.com/
-- Install local can refer: 
+- Install docker to your local refer: 
     - ubuntu: https://docs.docker.com/install/linux/docker-ce/ubuntu/
     - windows: https://docs.docker.com/docker-for-windows/install/
 
