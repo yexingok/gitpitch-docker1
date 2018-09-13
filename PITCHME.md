@@ -69,11 +69,16 @@ Docker Session 1
 
 #### Introduction for online docker classroom
 
-- Register an docker account on https://cloud.docker.com/
-- Learn dev or ops class from  https://training.play-with-docker.com/
-- Install docker to your local refer: 
-    - ubuntu: https://docs.docker.com/install/linux/docker-ce/ubuntu/
-    - windows: https://docs.docker.com/docker-for-windows/install/
+- Register an free account on https://cloud.docker.com/
+- Pick dev or ops class from  https://training.play-with-docker.com/
+
+---
+
+#### Install docker on local PC
+
+Refer:
+- ubuntu: https://docs.docker.com/install/linux/docker-ce/ubuntu/
+- windows: https://docs.docker.com/docker-for-windows/install/
 
 ---
 
